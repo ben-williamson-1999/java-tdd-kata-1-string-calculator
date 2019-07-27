@@ -9,6 +9,7 @@ plugins {
 }
 
 repositories {
+    mavenLocal()
     jcenter()
     mavenCentral()
 }
@@ -26,7 +27,7 @@ dependencies {
 
 application {
     // Define the main class for the application
-    mainClassName = 'App'
+    mainClassName = 'tdd.kata.StringCalculator'
 }
 
 test {
